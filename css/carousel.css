@@ -7,6 +7,12 @@ body {
   color: #777;
 }
 
+ #map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -100,6 +106,7 @@ footer {
     position: absolute;
     height: 25%;
     width: 80%;
+    left: 10%;
 }
 
 #remoteFooter {
