@@ -33,6 +33,16 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
+      
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -45,22 +55,29 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#"><img height="200%" class="logo" src="images/TC-TEKS-LOGO-3D.png"></a>
+              <a class="navbar-brand" href="index.html"><img height="200%" class="logo" src="images/TC-TEKS-LOGO-3D.png"></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="#locations" id="navText"><div class="navText">Locations</div></a></li>
+                <li><a href="locations.html" id="navText"><div class="navText">Locations</div></a></li>
                 <li><a href="#contact" id="navText"><div class="navText">Contact Us</div></a></li>
                   <li><a href="#schedule" id="navText"><div class="navText">Schedule a Repair</div></a></li>
                   <li><a href="#sales" id="navText"><div class="navText">Sales</div></a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="navText">Services <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                      <li class="navHover" ><a href="#" id="navText"><div class="navText">Action</div></a></li>
-                      <li><a href="#" id="navText"><div class="navText">Another action</div></a></li>
-                      <li><a href="#" id="navText"><div class="navText">Something else here</div></a></li>
+                      <li class="navHover" ><a href="#" id="navText"><div class="navText">iPhone Repair</div></a></li>
+                      <li><a href="#" id="navText"><div class="navText">iPad Repair</div></a></li>
+                      <li><a href="#" id="navText"><div class="navText">Mac Repair</div></a></li>
+                      <li><a href="#" id="navText"><div class="navText">Windows Computer Repair</div></a></li>
+                      <li><a href="#" id="navText"><div class="navText">Android Phone Repair</div></a></li>
+                      <li><a href="#" id="navText"><div class="navText">Android Tablet Repair</div></a></li>
                     <li role="separator" class="divider"></li>
-                      <li class="dropdown-header"><div class="navText">Nav header</div></li>
+                      <li class="dropdown-header"><div class="navText">In-Home Services</div></li>
+                      <li><a href="#" id="navText"><div class="navText">Separated link</div></a></li>
+                      <li><a href="#" id="navText"><div class="navText">One more separated link</div></a></li>
+                    <li role="separator" class="divider"></li>
+                      <li class="dropdown-header"><div class="navText">Business Services</div></li>
                       <li><a href="#" id="navText"><div class="navText">Separated link</div></a></li>
                       <li><a href="#" id="navText"><div class="navText">One more separated link</div></a></li>
                   </ul>
@@ -85,32 +102,40 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <img class="first-slide" src="images/hard_drive.jpeg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <h1>Damaged Hard Drive?</h1>
+              <p>Tc Teks can assist you in data recovery if the hard drive in your 
+                computer is starting to fail or has already broken. Stop in to 
+                get your data back today!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <img class="second-slide" src="images/broken_iPhone.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <h1>Broken iPhone?</h1>
+              <p>Do you need your iPhone repaired right away? That's no problem! 
+                Tc Teks offers same day iPhone repair services that can take an hour
+                or less!</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img class="third-slide" src="images/virus.jpeg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <h1>Does your computer have a virus?</h1>
+              <p>
+				See how Tc Teks can assist you in cleaning up your PC or Mac and bring it back 
+				to like new condition again without losing any of your data along the way! We also
+				offer several Anti Virus solutions to prevent any further issues.
+			  </p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
             </div>
           </div>
         </div>
@@ -137,21 +162,30 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="images/iPhone.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>iPhone Repair</h2>
-          <p>Information about iPhone repair.</p>
+          <p class="repairDescText">
+              Screen replacements, battery replacements, charging port repair, all can be done to get your iPhone back working again. All within 1 hour or less!
+          </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="images/iPad.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>iPad Repair</h2>
-          <p>Information about iPad repair.</p>
+          <p class="repairDescText">
+              Does your iPad have a broken screen? Does it no longer hold a charge or not power up at all? Bring
+              it to Tc Teks and have it professionally diagnosed and repaired today!
+          </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="images/mac.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Mac Repair</h2>
-          <p>Information about Mac repair.</p>
+          <p class="repairDescText">
+            Has your Mac started to run slowly? Is it not booting up? No matter the issue whether it
+            is a broken screen, water damage, or any other problem Tc Teks would be glad to diagnose and repair
+            any sort of issue you may be experiencing with your Mac!
+          </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
@@ -159,73 +193,72 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="images/windows.png" alt="Generic placeholder image" width="140" height="140">
           <h2>Windows Computer Repair</h2>
-          <p>Information about Window Computer repair.</p>
+          <p class="repairDescText">
+			  Has your PC started to run slow? Do you think it may have a virus or a failing hard drive?
+			  No matter the issue, whether it be related to failing hardware or an issue with your operating system
+			  Tc Teks will gladly diagnose and fix almost any issue you may have with your computer. No need to schedule
+			  a diagnostic, stop in at anytime for our profesional technicians to diagnose and repair your computer today!
+		  </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Android Phone Repair</h2>
-          <p>Information about Android Phone repair.</p>
+          <img class="img-circle" src="images/android_guy.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Android Device Repair</h2>
+          <p class="repairDescText">
+            Do you have an Android tablet or cell phone that's in need of repair?
+            Whether it's a cracked screen, a worn out battery, broken charging port,
+            or any other issue Tc Teks is here to help! We can diagnose and repair
+            almost any issue you may have with your Android device.
+          </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Android Tablet Repair</h2>
-          <p>Information about Android Tablet repair.</p>
+          <img class="img-circle" src="images/game_console.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Game Console Repair</h2>
+          <p class="repairDescText">
+			  Has your game console stopped turning on? Not outputting any video? Overheating? No matter the issue Tc Teks can 
+			  diagnose and repair almost any video game console no matter the brand. Stop in today to bring your console back to good
+			  working condition!
+		  </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
+      
 
       <!-- FOOTER -->
       <footer>
+          
+      <div class="fb-share-button" data-href="https://www.facebook.com/TCTEKScomputers/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FTCTEKScomputers%2F&amp;src=sdkpreparse">Share</a></div>
+          
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <div id="ecFooter">
+            <p>  
+                <br>Tc-Teks Computer - Eau Claire
+                <br>715-861-1126
+                <br>2839 Mall Drive #3B
+                <br>Eau Claire, WI 54701
+                <br>United States
+                <br>
+                <br>&copy; 2017 Tc Teks, Inc. 
+            </p>
+        </div>
+          
+
+          
+          <a href="http://www.teamviewer.com/link/?url=505374&id=2036874284"><button type="button" id="remoteFooter" src="images/remote_support.jpg"></button></a>
+          
+        <div id="cfFooter">
+            <p> 
+                <br>Tc-Teks Computer - Chippewa Falls
+                <br>715-738-2223
+                <br>224 N Bridge St Ste A
+                <br>Chippewa Falls, WI 54729
+                <br>United States 
+            </p>
+        </div>
+
       </footer>
 
     </div><!-- /.container -->
