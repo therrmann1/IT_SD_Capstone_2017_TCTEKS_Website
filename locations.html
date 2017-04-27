@@ -99,12 +99,34 @@
       <!-- Write the rest of the body content in this div. -->
 
     <div class="container marketing">
-        
-        <br>
-        <br>
-        <br>
-        <br>
-     
+        <h3>Our Locations</h3>
+        <div>
+            <h2>Eau Claire</h2>
+            <p>
+                <br>2839 Mall Drive Ste 3B
+                <br>Eau Claire, WI 54701
+                <br><a href="tel:715-861-1126">715-861-1126</a>
+                <br>Hours:
+                <br>Monday - Friday: 8:00AM to 6:00PM
+                <br>Saturday: 9:00AM to 3:00PM
+                <br>Sunday: 10:00AM to 2:00PM
+            </p>
+            <div class="map" id="eauClaireMap">
+            </div>
+        </div>
+        <div>
+            <h2>Chippewa Falls</h2>
+            <p>
+                <br>224 N Bridge St Ste A
+                <br>Chippewa Falls, WI 54729
+                <br><a href="tel:715-738-2223">715-738-2223</a>
+                <br>Hours:
+                <br>Monday - Friday: 9:00 AM to 6:00PM
+                <br>Saterday & Sunday: Closed
+            </p>
+            <div class="map" id="chippewaFallsMap">
+            </div>
+        </div>
     </div>
 
       <!-- FOOTER -->
@@ -153,5 +175,9 @@
     <script src="js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/googleMap.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtHO6HBe4NZFqB0fq4vgSMByRUg291Jko&callback=initMap">
+    </script>
   </body>
 </html>
