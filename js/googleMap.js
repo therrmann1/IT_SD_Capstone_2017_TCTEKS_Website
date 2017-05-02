@@ -6,8 +6,8 @@ function initMap() {
         map: map});
     
     var uluru2 = {lat: 44.936879, lng: -91.393144};
-    var map2 = new google.maps.Map(document.getElementById('chippewaFallsMap'), {zoom: 16, center: uluru});
-    var marke2r = new google.maps.Marker({
-        position: uluru, 
+    var map2 = new google.maps.Map(document.getElementById('chippewaFallsMap'), {zoom: 16, center: uluru2});
+    var marker2 = new google.maps.Marker({
+        position: uluru2, 
         map: map2});
 }

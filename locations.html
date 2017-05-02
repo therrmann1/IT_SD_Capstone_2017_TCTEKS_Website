@@ -98,41 +98,48 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
       <!-- Write the rest of the body content in this div. -->
 
-    <div class="container marketing">
-        <h3>Our Locations</h3>
-        <div>
-            <h2>Eau Claire</h2>
-            <p>
-                <br>2839 Mall Drive Ste 3B
-                <br>Eau Claire, WI 54701
-                <br><a href="tel:715-861-1126">715-861-1126</a>
-                <br>Hours:
-                <br>Monday - Friday: 8:00AM to 6:00PM
-                <br>Saturday: 9:00AM to 3:00PM
-                <br>Sunday: 10:00AM to 2:00PM
-            </p>
-            <div class="map" id="eauClaireMap">
+    <div class="container marketing" id="locationsMarketDiv">
+        <div id="outerMapContainer">
+            <h3>Our Locations</h3>
+            <div id="mapContainer">
+                <div class="mapDiv">
+                <h2>Eau Claire</h2>
+                <p>
+                    <br>2839 Mall Drive Ste 3B
+                    <br>Eau Claire, WI 54701
+                    <br><a href="tel:715-861-1126">715-861-1126</a>
+                    <br><strong>Hours:</strong>
+                    <br><strong>Monday - Friday:</strong> 8:00AM to 6:00PM
+                    <br><strong>Saturday:</strong> 9:00AM to 3:00PM
+                    <br><strong>Sunday:</strong> 10:00AM to 2:00PM
+                </p>
+                <div class="map" id="eauClaireMap">
+                </div>
+            </div>
+            <div class="mapDiv">
+                <h2><strong>Chippewa Falls</strong></h2>
+                <p>
+                    <br>224 N Bridge St Ste A
+                    <br>Chippewa Falls, WI 54729
+                    <br><a href="tel:715-738-2223">715-738-2223</a>
+                    <br><strong>Hours:</strong>
+                    <br><strong>Monday - Friday:</strong> 9:00 AM to 6:00PM
+                    <br><strong>Saterday & Sunday:</strong> Closed
+                </p>
+                <div class="map" id="chippewaFallsMap">
+                </div>
+                </div>
             </div>
         </div>
-        <div>
-            <h2>Chippewa Falls</h2>
-            <p>
-                <br>224 N Bridge St Ste A
-                <br>Chippewa Falls, WI 54729
-                <br><a href="tel:715-738-2223">715-738-2223</a>
-                <br>Hours:
-                <br>Monday - Friday: 9:00 AM to 6:00PM
-                <br>Saterday & Sunday: Closed
-            </p>
-            <div class="map" id="chippewaFallsMap">
-            </div>
-        </div>
+        
+   
+        
     </div>
-
-      <!-- FOOTER -->
-      <footer>
+      
+           <!-- FOOTER -->
+      <footer id="locationFooter">
           
-      <div class="fb-share-button" data-href="https://www.facebook.com/TCTEKScomputers/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FTCTEKScomputers%2F&amp;src=sdkpreparse">Share</a></div>
+        <div class="fb-share-button" data-href="https://www.facebook.com/TCTEKScomputers/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FTCTEKScomputers%2F&amp;src=sdkpreparse">Share</a></div>
           
         <p class="pull-right"><a href="#">Back to top</a></p>
         <div id="ecFooter">
@@ -149,7 +156,7 @@
           
 
           
-          <a href="http://www.teamviewer.com/link/?url=505374&id=2036874284"><button type="button" id="remoteFooter" src="images/remote_support.jpg"></button></a>
+        <a href="http://www.teamviewer.com/link/?url=505374&id=2036874284"><button type="button" id="remoteFooter" src="images/remote_support.jpg"></button></a>
           
         <div id="cfFooter">
             <p> 
@@ -160,8 +167,10 @@
                 <br>United States 
             </p>
         </div>
-
       </footer>
+
+      
+      
 
 
 

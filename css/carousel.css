@@ -180,9 +180,61 @@ footer {
     padding-bottom: 10px;
 }
 
+#locationsMarketDiv {
+    position: relative;
+    height: 100%;
+    
+}
+
+#outerMapContainer {
+    position: relative;
+    top: 65px;
+    bottom: 60px;
+}
+
+#outerMapContainer {
+    
+}
+
+#mapContainer {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    top: 30px;
+}
+
 .map {
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
+}
+
+.mapDiv {
+    position: relative;
+    width: 50%;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.mapDiv > h2 {
+    font-weight: bold;
+}
+
+#locationFooter {
+    margin-top: 5%;
+}
+
+#contactDiv {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.contactColumns {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1;
+    flex-grow: 1;
 }
 
 /* Featurettes
