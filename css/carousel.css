@@ -192,10 +192,6 @@ footer {
     bottom: 60px;
 }
 
-#outerMapContainer {
-    
-}
-
 #mapContainer {
     display: flex;
     flex-direction: row;
@@ -206,6 +202,7 @@ footer {
 .map {
     height: 350px;
     width: 350px;
+    margin-left: 20px;
 }
 
 .mapDiv {
@@ -220,8 +217,18 @@ footer {
     font-weight: bold;
 }
 
+.mapDiv > p {
+    padding-left: 20px;
+    flex-basis: 25%;
+    flex-grow: 1.3;
+}
+
+.mapDiv > a {
+    display: none;
+}
+
 #locationFooter {
-    margin-top: 5%;
+    margin-top: 11%;
 }
 
 #contactFooter {
@@ -269,6 +276,13 @@ footer {
     flex-grow: 3;
     flex-basis: 25%;
 }
+
+.outerFormFlex > li > textarea {
+    flex-grow: 3;
+    flex-basis: 25%;
+}
+
+
 
 .contactColumns {
     display: flex;
@@ -325,6 +339,23 @@ footer {
     
     .repairDescText {
         display: none;
+    }
+    
+    .map {
+        display: none;
+    }
+    
+    .mapDiv > a {
+        display:flex;
+        padding-left: 15px;
+    }
+    
+    #mapContainer {
+        flex-direction: column;
+    }
+    
+    #contactDiv {
+        flex-direction: column;
     }
     
 }
