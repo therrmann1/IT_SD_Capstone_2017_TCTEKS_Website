@@ -101,7 +101,7 @@
     <div class="container marketing">
         <div id="contactDiv">
             
-            <div class="contactColumns">
+            <div class="contactColumns" id="contactInfo">
                 <h2><strong>Call us or Stop in</strong></h2>
                 <p>
                     <br><strong>Eau Claire Location</strong>
@@ -121,24 +121,35 @@
             <div class="contactColumns">
                 <h2><strong>Email Us</strong></h2>
                 <form>
-                    <label id="name" for="nameInput"><strong>Name*</strong></label>
-                    <input type="text" name="nameInput" id="newName">
-                    <label id="email" for="emailInput"><strong>Email*</strong></label>
-                    <input type="email" name="emailInput" id="newEmail">
-                    <label id="phoneNumber" for="newPhoneNumber"><strong>Phone Number:</strong></label>
-                    <input type="text" name="newPhoneNumber" id="newPhoneNumber">
-                    <label id="message" for="newMessage"><strong>Message*</strong></label>
-                    <input type="text" name="newMessage">
+                    <ul class="outerFormFlex">
+                        <li>
+                            <label id="name" for="nameInput"><strong>Name*</strong></label>
+                            <input type="text" name="nameInput" id="newName">
+                        </li>
+                        <li>
+                            <label id="email" for="emailInput"><strong>Email*</strong></label>
+                            <input type="email" name="emailInput" id="newEmail">
+                        </li>
+                        <li>
+                            <label id="phoneNumber" for="newPhoneNumber"><strong>Phone Number:</strong></label>
+                            <input type="text" name="newPhoneNumber" id="newPhoneNumber">
+                        </li>
+                        <li>
+                            <label id="message" for="newMessage"><strong>Message*</strong></label>
+                            <input type="text" name="newMessage">
+                        </li>
+                        <li id="submitButton">
+                            <input type="button" name="submit" value="Submit" class="btn btn-primary">
+                        </li>
+                    </ul>
                 </form>
-            </div>
-            <div class="contactColumns">
             </div>
         </div>
      
 
 
       <!-- FOOTER -->
-      <footer>
+      <footer id="contactFooter">
           
       <div class="fb-share-button" data-href="https://www.facebook.com/TCTEKScomputers/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FTCTEKScomputers%2F&amp;src=sdkpreparse">Share</a></div>
           

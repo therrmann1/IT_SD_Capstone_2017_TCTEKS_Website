@@ -224,17 +224,68 @@ footer {
     margin-top: 5%;
 }
 
+#contactFooter {
+    margin-top: 5%;
+}
+
 #contactDiv {
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-grow: 1;
+    top: 70px;
+}
+
+#contactInfo {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+#contactInfo > p {
+    padding-left: 20px;
+}
+
+.outerFormFlex {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.outerFormFlex li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.outerFormFlex > li > label {
+    flex-grow: 1;
+    flex-basis: 25%;
+    text-transform: uppercase;
+}
+
+.outerFormFlex > li > input {
+    flex-grow: 3;
+    flex-basis: 25%;
 }
 
 .contactColumns {
     display: flex;
     flex-direction: column;
-    flex-basis: 1;
-    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+#submitButton {
+    justify-content: space-between;
+}
+
+#submitButton > input {
+    flex-grow: .2;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 /* Featurettes
