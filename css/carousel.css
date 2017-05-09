@@ -106,13 +106,10 @@ body {
     background-color: orange;
 }
 
-.navbar-wrapped {
-  height: 80px;
-}
-
 .navbar-toggle.collapsed {
     background-color: black;
 }
+
 .navbar-header {
      height: 80px;
      background: #458dbe;
