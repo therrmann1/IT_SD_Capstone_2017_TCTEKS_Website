@@ -188,6 +188,9 @@ footer {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
+  background-color: #458dbe;
+  background-color: rgba(69,141,190,0.5);
+  border-radius: 25px;
   z-index: 10;
 }
 
