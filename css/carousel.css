@@ -84,6 +84,37 @@ body {
     height: auto;
 }
 
+/* On site Networking
+--------------------------------------------------- */
+#bsNetwork {
+    width: 300px;
+    height: auto;
+}
+
+#bsNetworking {
+    text-align: center;
+}
+
+/* On site Server
+-------------------------------------------------- */
+#bsServer {
+    text-align: center;
+}
+
+#bsServerImg {
+    width: 300px;
+    height: auto;
+}
+
+/* On site backup
+-------------------------------------------------- */
+#bsBackup {
+    text-align: center;
+}
+#bsBackupImg {
+    width: 300px;
+    height: auto;
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
