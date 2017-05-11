@@ -45,6 +45,45 @@ body {
     padding-bottom: 45px;
 }
 
+/* Im home class
+-------------------------------------------------- */
+
+.inHomeSet {
+    margin-top: 125px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#printer {
+    text-align: center;
+}
+
+#printerImg {
+    width: 300px;
+    height: auto;
+}
+
+/* In Home Wireless Router Setup
+-------------------------------------------------- */
+#wireless {
+    position: relative;
+    text-align: center;
+}
+#wirelessRouterImg {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* in Home Home Theater
+--------------------------------------------------- */
+#homeTheaterImg {
+    width: 300px;
+    height: auto;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
