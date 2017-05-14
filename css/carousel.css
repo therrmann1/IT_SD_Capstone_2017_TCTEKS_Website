@@ -45,7 +45,35 @@ body {
     padding-bottom: 45px;
 }
 
-/* Im home class
+/* Services class
+-------------------------------------------------- */
+
+.services {
+    margin-top: 125px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 767px) {
+     .services {
+        margin-top: 50px;
+    }   
+}
+
+#services {
+    position: relative;
+    text-align: center;
+}
+
+#servicesImg {
+    width: 250px;
+    height: auto; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* In home class
 -------------------------------------------------- */
 
 .inHomeSet {
@@ -53,6 +81,12 @@ body {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 767px) {
+     .inHomeSet {
+        margin-top: 50px;
+    }   
 }
 
 #printer {
