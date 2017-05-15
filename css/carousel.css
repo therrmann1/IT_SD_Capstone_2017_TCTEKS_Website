@@ -337,6 +337,7 @@ footer {
     flex-direction: row;
     flex-grow: 1;
     top: 30px;
+    justify-content: center;
 }
 
 .map {
