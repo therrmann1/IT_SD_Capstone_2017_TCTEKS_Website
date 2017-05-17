@@ -73,14 +73,14 @@
                       <li><a href="android.html" id="navText"><div class="navText">Android Device Repair</div></a></li>
                     <li role="separator" class="divider"></li>
                       <li class="dropdown-header"><div class="navText">In-Home Services</div></li>
-                      <li><a href="#" id="navText"><div class="navText">Wireless Network Setup</div></a></li>
-                      <li><a href="#" id="navText"><div class="navText">Printer Setup</div></a></li>
-                      <li><a href="#" id="navText"><div class="navText">Home Theater Setup</div></a></li>
-                    <li role="separator" class="divider"></li>
+                      <li><a href="InHomeWireless.html" id="navText"><div class="navText">Wireless Network Setup</div></a></li>
+                      <li><a href="InHomePrinter.html" id="navText"><div class="navText">Printer Setup</div></a></li>
+                      <li><a href="inHomeTheater.html" id="navText"><div class="navText">Home Theater Setup</div></a></li>
+                      <li role="separator" class="divider"></li>
                       <li class="dropdown-header"><div class="navText">Business Services</div></li>
-                      <li><a href="#" id="navText"><div class="navText">Networking</div></a></li>
-                      <li><a href="#" id="navText"><div class="navText">Server Setup and Configuration</div></a></li>
-                      <li><a href="#" id="navText"><div class="navText">Automated Backups</div></a></li>
+                      <li><a href="businessNetworking.html" id="navText"><div class="navText">Networking</div></a></li>
+                      <li><a href="businessServer.html" id="navText"><div class="navText">Server Setup and Configuration</div></a></li>
+                      <li><a href="businessBackup.html" id="navText"><div class="navText">Automated Backups</div></a></li>
                   </ul>
                 </li>
               </ul>
@@ -122,19 +122,20 @@
             </div>
             <div class="contactColumns">
                 <h2><strong>Email Us</strong></h2>
-                <form>
+                
+                <form method="post"  action="contact.php">
                     <ul class="outerFormFlex">
                         <li>
                             <label id="name" for="nameInput"><strong>Name*</strong></label>
-                            <input type="text" name="nameInput" id="newName">
+                            <input type="text" name="sender" id="newName">
                         </li>
                         <li>
                             <label id="email" for="emailInput"><strong>Email*</strong></label>
-                            <input type="email" name="emailInput" id="newEmail">
+                            <input type="email" name="senderEmail" id="newEmail">
                         </li>
                         <li>
                             <label id="phoneNumber" for="newPhoneNumber"><strong>Phone Number:</strong></label>
-                            <input type="text" name="newPhoneNumber" id="newPhoneNumber">
+                            <input type="text" name="number" id="newPhoneNumber">
                         </li>
                         <li>
                             <label id="message" for="newMessage"><strong>Message*</strong></label>
@@ -143,9 +144,9 @@
                         <li>
                             <label id="message" for="newMessage"><strong>Preferred Method of Contact*</strong></label>
                             <select name="preferredContact">
-                              <option value="volvo">Call</option>
-                              <option value="saab">Text</option>
-                              <option value="fiat">Email</option>
+                              <option value="call">Call</option>
+                              <option value="text">Text</option>
+                              <option value="email">Email</option>
                             </select>
                         </li>
                         <li id="submitButton">
