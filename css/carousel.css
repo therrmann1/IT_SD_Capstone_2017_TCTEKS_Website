@@ -44,17 +44,11 @@ body {
     text-align: center; 
     padding-bottom: 45px;
 }
-
-<<<<<<< HEAD
-/*
-*/
 .inHomeBsImg {
     width: 300px;
     height: auto;
 }
 
-/* Im home/BS class
-=======
 /* Services class
 -------------------------------------------------- */
 
@@ -84,7 +78,6 @@ body {
 }
 
 /* In home class
->>>>>>> refs/remotes/origin/master
 -------------------------------------------------- */
 
 .inHomeSet {
