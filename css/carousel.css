@@ -45,7 +45,14 @@ body {
     padding-bottom: 45px;
 }
 
-/* Im home class
+/*
+*/
+.inHomeBsImg {
+    width: 300px;
+    height: auto;
+}
+
+/* Im home/BS class
 -------------------------------------------------- */
 
 .inHomeSet {
@@ -59,7 +66,7 @@ body {
     text-align: center;
 }
 
-#printerImg {
+.img-circle.BsInHome {
     width: 300px;
     height: auto;
 }
@@ -70,26 +77,9 @@ body {
     position: relative;
     text-align: center;
 }
-#wirelessRouterImg {
-    width: 300px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* in Home Home Theater
---------------------------------------------------- */
-#homeTheaterImg {
-    width: 300px;
-    height: auto;
-}
 
 /* On site Networking
 --------------------------------------------------- */
-#bsNetwork {
-    width: 300px;
-    height: auto;
-}
 
 #bsNetworking {
     text-align: center;
@@ -101,20 +91,12 @@ body {
     text-align: center;
 }
 
-#bsServerImg {
-    width: 300px;
-    height: auto;
-}
-
 /* On site backup
 -------------------------------------------------- */
 #bsBackup {
     text-align: center;
 }
-#bsBackupImg {
-    width: 300px;
-    height: auto;
-}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -518,8 +500,9 @@ footer {
         padding-top: 80px;
     }
     
-    .contactDiv {
-        
+    .img-circle.BsInHome {
+        width: 150px;
+        height: auto;
     }
     
 }
